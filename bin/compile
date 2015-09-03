@@ -67,6 +67,11 @@ curl -sS https://install.meteor.com | HOME="$METEOR_DIR" /bin/sh
 METEOR="$METEOR_DIR/.meteor/meteor" # The meteor binary.
 
 #
+# Update Meteor to 1.2-rc.11
+#
+$METEOR update --release METEOR@1.2-rc.11
+
+#
 # Build the meteor app!
 #
 echo "-----> Bundling bundle"
